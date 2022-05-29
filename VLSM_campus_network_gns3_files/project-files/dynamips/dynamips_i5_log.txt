@@ -1,0 +1,37 @@
+Apr 13 11:47:47.915 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Apr 13 11:47:47.915 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 56269.
+Apr 13 11:47:48.400 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 13 11:47:48.400 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\88018\GNS3\projects\lab7_0to255\project-files\dynamips 
+Apr 13 11:47:48.400 GENERAL: working_dir=C:\Users\88018\GNS3\projects\lab7_0to255\project-files\dynamips
+Apr 13 11:47:48.400 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\88018\GNS3\projects\lab7_0to255\project-files\dynamips\8433c9a8-ae73-4069-9143-fcaac0756a59 
+Apr 13 11:47:48.400 GENERAL: working_dir=C:\Users\88018\GNS3\projects\lab7_0to255\project-files\dynamips\8433c9a8-ae73-4069-9143-fcaac0756a59
+Apr 13 11:47:48.400 HYPERVISOR: exec_cmd: vm create ELL 5 c7200 
+Apr 13 11:47:48.400 VM: VM ELL created.
+Apr 13 11:47:48.400 HYPERVISOR: exec_cmd: vm set_con_tcp_port ELL 5004 
+Apr 13 11:47:48.400 HYPERVISOR: exec_cmd: c7200 get_mac_addr ELL 
+Apr 13 11:47:48.400 HYPERVISOR: exec_cmd: vm get_status ELL 
+Apr 13 11:47:48.400 HYPERVISOR: exec_cmd: vm slot_add_binding ELL 0 0 C7200-IO-FE 
+Apr 13 11:47:48.400 HYPERVISOR: exec_cmd: vm set_disk0 ELL 0 
+Apr 13 11:47:48.400 HYPERVISOR: exec_cmd: vm set_exec_area ELL 64 
+Apr 13 11:47:48.415 HYPERVISOR: exec_cmd: vm set_ios ELL C:/Users/88018/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Apr 13 11:47:48.415 HYPERVISOR: exec_cmd: c7200 set_mac_addr ELL ca05.211c.0000 
+Apr 13 11:47:48.415 HYPERVISOR: exec_cmd: vm set_nvram ELL 512 
+Apr 13 11:47:48.415 HYPERVISOR: exec_cmd: vm set_ram ELL 512 
+Apr 13 11:47:48.415 HYPERVISOR: exec_cmd: vm get_status ELL 
+Apr 13 11:47:48.415 HYPERVISOR: exec_cmd: vm slot_add_binding ELL 1 0 PA-2FE-TX 
+Apr 13 11:47:48.415 HYPERVISOR: exec_cmd: vm get_status ELL 
+Apr 13 11:47:48.415 HYPERVISOR: exec_cmd: vm slot_add_binding ELL 2 0 PA-2FE-TX 
+Apr 13 11:47:48.415 HYPERVISOR: exec_cmd: vm get_status ELL 
+Apr 13 11:47:48.415 HYPERVISOR: exec_cmd: vm slot_add_binding ELL 3 0 PA-2FE-TX 
+Apr 13 11:47:48.415 HYPERVISOR: exec_cmd: vm get_status ELL 
+Apr 13 11:47:48.415 HYPERVISOR: exec_cmd: vm slot_add_binding ELL 4 0 PA-2FE-TX 
+Apr 13 11:47:48.415 HYPERVISOR: exec_cmd: vm get_status ELL 
+Apr 13 11:47:48.415 HYPERVISOR: exec_cmd: vm slot_add_binding ELL 5 0 PA-2FE-TX 
+Apr 13 11:47:48.415 HYPERVISOR: exec_cmd: vm get_status ELL 
+Apr 13 11:47:48.415 HYPERVISOR: exec_cmd: vm slot_add_binding ELL 6 0 PA-2FE-TX 
+Apr 13 11:47:55.386 HYPERVISOR: exec_cmd: nio create_udp udp-240edeff-f7d3-4c75-b01b-4b6e11643dc2 10028 127.0.0.1 10029 
+Apr 13 11:47:55.668 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ELL 0 0 udp-240edeff-f7d3-4c75-b01b-4b6e11643dc2 
+Apr 13 11:47:55.668 HYPERVISOR: exec_cmd: vm get_status ELL 
+Apr 13 11:47:57.027 HYPERVISOR: exec_cmd: nio create_udp udp-12f025a7-ea27-4992-987c-41aad79a7766 10058 127.0.0.1 10059 
+Apr 13 11:47:57.059 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ELL 1 0 udp-12f025a7-ea27-4992-987c-41aad79a7766 
+Apr 13 11:47:57.059 HYPERVISOR: exec_cmd: vm get_status ELL 

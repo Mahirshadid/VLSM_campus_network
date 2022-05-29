@@ -1,0 +1,15 @@
+Apr 13 11:47:52.026 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Apr 13 11:47:52.026 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 56290.
+Apr 13 11:47:52.495 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 13 11:47:52.495 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\88018\GNS3\projects\lab7_0to255\project-files\dynamips 
+Apr 13 11:47:52.495 GENERAL: working_dir=C:\Users\88018\GNS3\projects\lab7_0to255\project-files\dynamips
+Apr 13 11:47:52.495 HYPERVISOR: exec_cmd: ethsw create CVL_SW_1 
+Apr 13 11:47:56.886 HYPERVISOR: exec_cmd: nio create_udp udp-f73e33d9-a238-4327-8226-14b9872a21f4 10053 127.0.0.1 10052 
+Apr 13 11:47:56.886 HYPERVISOR: exec_cmd: ethsw add_nio CVL_SW_1 udp-f73e33d9-a238-4327-8226-14b9872a21f4 
+Apr 13 11:47:56.918 HYPERVISOR: exec_cmd: ethsw set_access_port CVL_SW_1 udp-f73e33d9-a238-4327-8226-14b9872a21f4 1 
+Apr 13 11:47:58.824 HYPERVISOR: exec_cmd: nio create_udp udp-03f0d7ae-de93-4b99-a1ee-45159df3b090 10081 127.0.0.1 10080 
+Apr 13 11:47:58.824 HYPERVISOR: exec_cmd: ethsw add_nio CVL_SW_1 udp-03f0d7ae-de93-4b99-a1ee-45159df3b090 
+Apr 13 11:47:58.840 HYPERVISOR: exec_cmd: ethsw set_access_port CVL_SW_1 udp-03f0d7ae-de93-4b99-a1ee-45159df3b090 1 
+Apr 13 11:47:58.981 HYPERVISOR: exec_cmd: nio create_udp udp-95e0444f-94b5-4204-8d4a-8fd70965f2f6 10083 127.0.0.1 10082 
+Apr 13 11:47:58.981 HYPERVISOR: exec_cmd: ethsw add_nio CVL_SW_1 udp-95e0444f-94b5-4204-8d4a-8fd70965f2f6 
+Apr 13 11:47:58.997 HYPERVISOR: exec_cmd: ethsw set_access_port CVL_SW_1 udp-95e0444f-94b5-4204-8d4a-8fd70965f2f6 1 

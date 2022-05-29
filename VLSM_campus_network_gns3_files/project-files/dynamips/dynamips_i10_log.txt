@@ -1,0 +1,15 @@
+Apr 13 11:47:50.900 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Apr 13 11:47:50.900 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 56284.
+Apr 13 11:47:51.385 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 13 11:47:51.385 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\88018\GNS3\projects\lab7_0to255\project-files\dynamips 
+Apr 13 11:47:51.385 GENERAL: working_dir=C:\Users\88018\GNS3\projects\lab7_0to255\project-files\dynamips
+Apr 13 11:47:51.385 HYPERVISOR: exec_cmd: ethsw create ADM_SW_1 
+Apr 13 11:47:56.558 HYPERVISOR: exec_cmd: nio create_udp udp-97fae4e7-00e5-45cb-be2d-b504c78dd6ab 10045 127.0.0.1 10044 
+Apr 13 11:47:56.558 HYPERVISOR: exec_cmd: ethsw add_nio ADM_SW_1 udp-97fae4e7-00e5-45cb-be2d-b504c78dd6ab 
+Apr 13 11:47:56.574 HYPERVISOR: exec_cmd: ethsw set_access_port ADM_SW_1 udp-97fae4e7-00e5-45cb-be2d-b504c78dd6ab 1 
+Apr 13 11:47:58.199 HYPERVISOR: exec_cmd: nio create_udp udp-dd8c8833-655e-4779-89a6-145e4ef40e1e 10072 127.0.0.1 10073 
+Apr 13 11:47:58.199 HYPERVISOR: exec_cmd: ethsw add_nio ADM_SW_1 udp-dd8c8833-655e-4779-89a6-145e4ef40e1e 
+Apr 13 11:47:58.215 HYPERVISOR: exec_cmd: ethsw set_access_port ADM_SW_1 udp-dd8c8833-655e-4779-89a6-145e4ef40e1e 1 
+Apr 13 11:47:58.340 HYPERVISOR: exec_cmd: nio create_udp udp-d93a7e8b-4b9b-4558-9096-52590925ab20 10074 127.0.0.1 10075 
+Apr 13 11:47:58.340 HYPERVISOR: exec_cmd: ethsw add_nio ADM_SW_1 udp-d93a7e8b-4b9b-4558-9096-52590925ab20 
+Apr 13 11:47:58.372 HYPERVISOR: exec_cmd: ethsw set_access_port ADM_SW_1 udp-d93a7e8b-4b9b-4558-9096-52590925ab20 1 

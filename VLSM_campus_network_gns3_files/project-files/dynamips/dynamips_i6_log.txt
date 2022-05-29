@@ -1,0 +1,37 @@
+Apr 13 11:47:48.509 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Apr 13 11:47:48.509 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 56272.
+Apr 13 11:47:48.994 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 13 11:47:48.994 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\88018\GNS3\projects\lab7_0to255\project-files\dynamips 
+Apr 13 11:47:48.994 GENERAL: working_dir=C:\Users\88018\GNS3\projects\lab7_0to255\project-files\dynamips
+Apr 13 11:47:48.994 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\88018\GNS3\projects\lab7_0to255\project-files\dynamips\9e8a744a-7aa5-470a-bce6-48d4ba3f0d1d 
+Apr 13 11:47:48.994 GENERAL: working_dir=C:\Users\88018\GNS3\projects\lab7_0to255\project-files\dynamips\9e8a744a-7aa5-470a-bce6-48d4ba3f0d1d
+Apr 13 11:47:48.994 HYPERVISOR: exec_cmd: vm create CIVIL 6 c7200 
+Apr 13 11:47:48.994 VM: VM CIVIL created.
+Apr 13 11:47:48.994 HYPERVISOR: exec_cmd: vm set_con_tcp_port CIVIL 5005 
+Apr 13 11:47:48.994 HYPERVISOR: exec_cmd: c7200 get_mac_addr CIVIL 
+Apr 13 11:47:48.994 HYPERVISOR: exec_cmd: vm get_status CIVIL 
+Apr 13 11:47:48.994 HYPERVISOR: exec_cmd: vm slot_add_binding CIVIL 0 0 C7200-IO-FE 
+Apr 13 11:47:48.994 HYPERVISOR: exec_cmd: vm set_disk0 CIVIL 0 
+Apr 13 11:47:48.994 HYPERVISOR: exec_cmd: vm set_exec_area CIVIL 64 
+Apr 13 11:47:49.009 HYPERVISOR: exec_cmd: vm set_ios CIVIL C:/Users/88018/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Apr 13 11:47:49.009 HYPERVISOR: exec_cmd: c7200 set_mac_addr CIVIL ca06.1548.0000 
+Apr 13 11:47:49.009 HYPERVISOR: exec_cmd: vm set_nvram CIVIL 512 
+Apr 13 11:47:49.009 HYPERVISOR: exec_cmd: vm set_ram CIVIL 512 
+Apr 13 11:47:49.009 HYPERVISOR: exec_cmd: vm get_status CIVIL 
+Apr 13 11:47:49.009 HYPERVISOR: exec_cmd: vm slot_add_binding CIVIL 1 0 PA-2FE-TX 
+Apr 13 11:47:49.009 HYPERVISOR: exec_cmd: vm get_status CIVIL 
+Apr 13 11:47:49.009 HYPERVISOR: exec_cmd: vm slot_add_binding CIVIL 2 0 PA-2FE-TX 
+Apr 13 11:47:49.009 HYPERVISOR: exec_cmd: vm get_status CIVIL 
+Apr 13 11:47:49.009 HYPERVISOR: exec_cmd: vm slot_add_binding CIVIL 3 0 PA-2FE-TX 
+Apr 13 11:47:49.009 HYPERVISOR: exec_cmd: vm get_status CIVIL 
+Apr 13 11:47:49.009 HYPERVISOR: exec_cmd: vm slot_add_binding CIVIL 4 0 PA-2FE-TX 
+Apr 13 11:47:49.009 HYPERVISOR: exec_cmd: vm get_status CIVIL 
+Apr 13 11:47:49.009 HYPERVISOR: exec_cmd: vm slot_add_binding CIVIL 5 0 PA-2FE-TX 
+Apr 13 11:47:49.009 HYPERVISOR: exec_cmd: vm get_status CIVIL 
+Apr 13 11:47:49.009 HYPERVISOR: exec_cmd: vm slot_add_binding CIVIL 6 0 PA-2FE-TX 
+Apr 13 11:47:55.808 HYPERVISOR: exec_cmd: nio create_udp udp-6679e429-c3ff-4fbe-845f-570803818c07 10034 127.0.0.1 10035 
+Apr 13 11:47:56.074 HYPERVISOR: exec_cmd: vm slot_add_nio_binding CIVIL 0 0 udp-6679e429-c3ff-4fbe-845f-570803818c07 
+Apr 13 11:47:56.074 HYPERVISOR: exec_cmd: vm get_status CIVIL 
+Apr 13 11:47:56.855 HYPERVISOR: exec_cmd: nio create_udp udp-9347c182-af7e-47d1-b82f-ec04f308b945 10054 127.0.0.1 10055 
+Apr 13 11:47:56.871 HYPERVISOR: exec_cmd: vm slot_add_nio_binding CIVIL 1 0 udp-9347c182-af7e-47d1-b82f-ec04f308b945 
+Apr 13 11:47:56.871 HYPERVISOR: exec_cmd: vm get_status CIVIL 

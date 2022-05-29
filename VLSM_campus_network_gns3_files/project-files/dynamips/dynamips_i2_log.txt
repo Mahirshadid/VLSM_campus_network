@@ -1,0 +1,43 @@
+Apr 13 11:47:46.149 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Apr 13 11:47:46.149 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 56260.
+Apr 13 11:47:46.634 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 13 11:47:46.634 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\88018\GNS3\projects\lab7_0to255\project-files\dynamips 
+Apr 13 11:47:46.634 GENERAL: working_dir=C:\Users\88018\GNS3\projects\lab7_0to255\project-files\dynamips
+Apr 13 11:47:46.634 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\88018\GNS3\projects\lab7_0to255\project-files\dynamips\5f199224-a6a6-4873-8c2c-7b5619371ee1 
+Apr 13 11:47:46.634 GENERAL: working_dir=C:\Users\88018\GNS3\projects\lab7_0to255\project-files\dynamips\5f199224-a6a6-4873-8c2c-7b5619371ee1
+Apr 13 11:47:46.634 HYPERVISOR: exec_cmd: vm create CSE 2 c7200 
+Apr 13 11:47:46.634 VM: VM CSE created.
+Apr 13 11:47:46.634 HYPERVISOR: exec_cmd: vm set_con_tcp_port CSE 5001 
+Apr 13 11:47:46.634 HYPERVISOR: exec_cmd: c7200 get_mac_addr CSE 
+Apr 13 11:47:46.634 HYPERVISOR: exec_cmd: vm get_status CSE 
+Apr 13 11:47:46.634 HYPERVISOR: exec_cmd: vm slot_add_binding CSE 0 0 C7200-IO-FE 
+Apr 13 11:47:46.634 HYPERVISOR: exec_cmd: vm set_disk0 CSE 0 
+Apr 13 11:47:46.634 HYPERVISOR: exec_cmd: vm set_exec_area CSE 64 
+Apr 13 11:47:46.649 HYPERVISOR: exec_cmd: vm set_ios CSE C:/Users/88018/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Apr 13 11:47:46.649 HYPERVISOR: exec_cmd: c7200 set_mac_addr CSE ca02.1134.0000 
+Apr 13 11:47:46.649 HYPERVISOR: exec_cmd: vm set_nvram CSE 512 
+Apr 13 11:47:46.649 HYPERVISOR: exec_cmd: vm set_ram CSE 512 
+Apr 13 11:47:46.649 HYPERVISOR: exec_cmd: vm get_status CSE 
+Apr 13 11:47:46.649 HYPERVISOR: exec_cmd: vm slot_add_binding CSE 1 0 PA-2FE-TX 
+Apr 13 11:47:46.649 HYPERVISOR: exec_cmd: vm get_status CSE 
+Apr 13 11:47:46.649 HYPERVISOR: exec_cmd: vm slot_add_binding CSE 2 0 PA-2FE-TX 
+Apr 13 11:47:46.649 HYPERVISOR: exec_cmd: vm get_status CSE 
+Apr 13 11:47:46.649 HYPERVISOR: exec_cmd: vm slot_add_binding CSE 3 0 PA-2FE-TX 
+Apr 13 11:47:46.649 HYPERVISOR: exec_cmd: vm get_status CSE 
+Apr 13 11:47:46.649 HYPERVISOR: exec_cmd: vm slot_add_binding CSE 4 0 PA-2FE-TX 
+Apr 13 11:47:46.649 HYPERVISOR: exec_cmd: vm get_status CSE 
+Apr 13 11:47:46.649 HYPERVISOR: exec_cmd: vm slot_add_binding CSE 5 0 PA-2FE-TX 
+Apr 13 11:47:46.649 HYPERVISOR: exec_cmd: vm get_status CSE 
+Apr 13 11:47:46.649 HYPERVISOR: exec_cmd: vm slot_add_binding CSE 6 0 PA-2FE-TX 
+Apr 13 11:47:53.667 HYPERVISOR: exec_cmd: nio create_udp udp-3bf431a2-b914-454c-b294-4fa23bbc4298 10004 127.0.0.1 10005 
+Apr 13 11:47:53.949 HYPERVISOR: exec_cmd: vm slot_add_nio_binding CSE 0 0 udp-3bf431a2-b914-454c-b294-4fa23bbc4298 
+Apr 13 11:47:53.949 HYPERVISOR: exec_cmd: vm get_status CSE 
+Apr 13 11:47:56.199 HYPERVISOR: exec_cmd: nio create_udp udp-78cbbfb6-08c0-4a68-aa82-730db4d5ddc9 10038 127.0.0.1 10039 
+Apr 13 11:47:56.230 HYPERVISOR: exec_cmd: vm slot_add_nio_binding CSE 1 0 udp-78cbbfb6-08c0-4a68-aa82-730db4d5ddc9 
+Apr 13 11:47:56.230 HYPERVISOR: exec_cmd: vm get_status CSE 
+Apr 13 11:48:24.894 HYPERVISOR: exec_cmd: nio create_udp udp-3f0cb3ea-eaaa-474b-9b85-a52c30809561 10086 127.0.0.1 10087 
+Apr 13 11:48:24.894 HYPERVISOR: exec_cmd: vm slot_add_nio_binding CSE 1 1 udp-3f0cb3ea-eaaa-474b-9b85-a52c30809561 
+Apr 13 11:48:24.894 HYPERVISOR: exec_cmd: vm get_status CSE 
+Apr 13 11:49:15.851 HYPERVISOR: exec_cmd: vm get_status CSE 
+Apr 13 11:49:15.851 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding CSE 1 1 
+Apr 13 11:49:15.851 HYPERVISOR: exec_cmd: nio delete udp-3f0cb3ea-eaaa-474b-9b85-a52c30809561 
